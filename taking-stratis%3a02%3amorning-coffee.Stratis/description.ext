@@ -1,0 +1,42 @@
+respawn = 3; // Base selection respawn
+respawnTemplates[] = { "MenuPosition", "Tickets",  };
+respawnOnStart = -1;
+
+class CfgSounds
+{
+	sounds[] = {}; // OFP required it filled, now it can be empty or absent depending on the game's version
+
+	class briefing
+	{
+		name = "briefing";						// display name
+		sound[] = { "sounds\briefing.ogg", 0.6, 1, 4 };	// file, volume, pitch, maxDistance
+    titles[] = {
+        0, "Alright, listen up! Our situation is not great, but also not terrible.",
+        5, "A solid 3 out of 5.",
+        7, "CSAT knows we're here now, so their forces will be onto us pretty damn fast.",
+        11, "We have about an hour at most. Luckily, we still have some advantages going on for us.",
+        16, "They don't know how many of us there are, and they think we're just going to try and hold out here, at the Kill Farm, before our reinforcements arrive",
+        23, "Well, we're going to surprise them a little bit.",
+        25, "While ODIN is keeping the CSAT air assets busy over at Altis, we have a good chance at giving them some real problems here.",
+        31, "ODIN's orders are to move up to Camp Rogain to our south-east and attack the enemy outpost there.",
+        37, "It's risky, since that position is well defended, but CSAT doesn't know we're coming for them",
+        42, "As for the camp's defenses, we're looking at roughly 20 men inside it and in its immediate vicinity and roughly 20 more patrolling the roads and woods nearby.",
+        50, "There are some HMGs looking down on the main road and the forest to the east",
+        54, "Some of our boys also spotted an APC roaming about, a Marid, but they lost sight of it. It's possible it's lurking somewhere at the camp or patrolling the road.",
+        62, "In terms of enemy air assets, CSAT's options are severely limited, but it's likely they'll send some of the orcas they have stationed at the air base near the city once they realize they're under attack",
+        70, "If we manage to take hold of the camp, we can defend ourselves better from there. Taking the camp is one problem, but defending it is another one.",
+        76, "CSAT has bases all over the island, they will definitely try to retake the camp.",
+        81, "Most of their assets are over at Agia Marina, the port town to the west. Then they have some over at the Military Range to its south.",
+        88, "The Kamino Firing Range to the east is also one of their staging areas, as well ass Air Station Mike.",
+        94, "We have to be ready for enemy reinforcements to come from any of those places.",
+        97, "We've received word from the locals that some of the independence fighters have been captured and are being held at the camp.",
+        102, "If we free them they could help us defend the camp.",
+        104, "So that's the situation, Raven 1-1. ODIN wants you to take lead on this one, come up with a plan to take the camp and defend it.",
+        111, "We borrowed some toys from the marines over at USS Ross to help us with that goal. Look into the supply crates around this place to see if any of it could be useful.",
+        119, "Once you have a plan, we'll move out, Raven 1-2, 1-3 and 1-4 will assist you with taking the camp."
+    };
+    forceTitles = 1;
+    titlesSize = 3;
+  };
+};
+
